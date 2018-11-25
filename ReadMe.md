@@ -4,9 +4,9 @@
 
 Students will learn the foundational concepts and techniques of machine learning and how to apply those techniques to data science. Principles of data science and machine learning will be examined and applied to problem solving.  Students will master data science processes and its applications, including how to wrangle and use data to train classification or prediction models. To demonstrate mastery, students will apply these techniques to develop and train models on data sets using industry-standard modern software libraries and tools. Students will develop “sharp” data science questions, select a data set and apply a variety of methods to explore those questions and find relevant answers.
 
-### Why you should know this (optional)
+### Why you should know this?
 
-Explain why students should care to learn the material presented in this class.
+Machine learning has shaped our world. Machine learning is the science of getting computers to learn and act like humans do, and improve their learning over time in autonomous fashion, by feeding them data and information in the form of observations and real-world interactions.
 
 ## Course Specifics
 
@@ -24,13 +24,13 @@ DS 1.1, CS 1.1 <br>
 
 ## Learning Objectives or Competencies (5-8)
 
-Students by the end of the course will be able to ...
+By the end of the course the students will be able to
 
-1. Identify & Describe
-1. Explain
-1. Compare & Contrast
-1. Design & Implement
-1. Master
+1. Identify a prediction problem and choose the appropriate regression model
+1. Identify a classification problem and choose the appropriate  classifier
+1. Evaluate either a regression model or a classifier
+1. Cluster un-label dataset to groups   
+1. Compare different models and choose the best model while tune the model hyper-parameters
 
 
 
@@ -44,40 +44,43 @@ Students by the end of the course will be able to ...
 |:-----:|:----------------------:|:---------------------------------------:|
 |   1   |  Monday, October 22    | [Introduction to Machine Learning] |
 |   2   | Wednesday, October 24    | [Linear Regression] |
-|   3   |  Monday, October 29  | [Lesson 1] |
-|   4   | Wednesday, November 31  | [Lesson 1] |
-|   5   |  Monday, November 5 | [Lesson 1] |
-|   6   | Wednesday, November 7 | [Lesson 1] |
-|   7   |  Monday, November 12 | [Lesson 1] |
-|   8   | Wednesday, November 14 | [Lesson 1] |
+|   3   |  Monday, October 29  | [Support Vector Machine] |
+|   4   | Wednesday, November 31  | [Model Evaluation] |
+|   5   |  Monday, November 5 | [Principal Component Analysis] |
+|   6   | Wednesday, November 7 | [Decision Tree] |
+|   7   |  Monday, November 12 | [Clustering] |
+|   8   | Wednesday, November 14 | [Naive Bayes] |
 |      |  Monday, November 19 | **Don Rags** |
 |     | Wednesday, November 21 | **Fall Break** |
-|  9   |  Monday, November 26    | [Lesson 1] |
-|  10   | Wednesday, November 28    | [Lesson 1] |
-|  11     |  Monday, December 3    | [Lesson 1] |
-|  12   | Wednesday, December 5   | [Lesson 1] |
-|  13   | Monday, December 10   | [Lesson 1] |
+|  9   |  Monday, November 26    | [Ensemble Methods] |
+|  10   | Wednesday, November 28    | [Feature Selection] |
+|  11     |  Monday, December 3    | [SMOTE] |
+|  12   | Wednesday, December 5   | [Pipeline] |
+|  13   | Monday, December 10   | [Project Presentation] |
 |  14   | Wednesday, December 12   | Final Exams |
 
 [Introduction to Machine Learning]: Lessons/IntroductiontoMachineLearning.md
 [Linear Regression]: Lessons/LinearRegression.md
+[Support Vector Machine]: Lessons/SupportVectorMachine.md
+[Model Evaluation]: Lessons/ModelEvaluation.md
+[Principal Component Analysis]: Lessons/PrincipalComponentAnalysis.md
+[Ensemble Methods]:Lessons/EnsembleMethods.md
+[Decision Tree]: Lessons/DecisionTree.md
+[Clustering]: Lessons/Clustering.md
+[Naive Bayes]: Lessons/NaiveBayes.md
 
-## Class Assignments [Remove header if you like]
-- List (with links) of all course-level assignments (i.e. tutorials, challenge sets, contractor project, custom projects, etc)
-- Under each assignment link the rubric used to evaluate it or describe how it is evaluated.
+## Class Assignments
+- Apply Linear Regression for Boston Housing Dataset
+- Apply SVM for Breast Cancer Dataset
 - Projects should be linked to a project page which has a description & requirements.
 
 ### Tutorials
-[REWORD AS RELEVANT TO YOUR COURSE] Tutorials are to help you get started in a topic.  They are graded on completion only.
-
-- [Do Cool Stuff Tutorial]()
+- We'll be exploring basic machine learning algorithms applied on to simple datasets with an emphasis on getting basic model functionality
+- https://www.makeschool.com/academy/track/ds-2-1-classification-tutorial
 
 ### Projects
-[REWORD AS RELEVANT TO YOUR COURSE] Projects are a chance for you to build and ship code that is based on class concepts.  Many are open ended allowing you to be creative and to have individual work for your portfolio.
-- [Sample Project](Sample_Project.md)
-    -   [Sample Project Rubric](Sample_Rubric.md)
+- You will choose your own dataset to clean, investigate, and make predictions or classification or clustering on it
 
-### Other Class assignments
 
 ## Evaluation
 
